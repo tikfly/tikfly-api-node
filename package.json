@@ -1,0 +1,23 @@
+{
+  "name": "@tikfly/client",
+  "description": "Unofficial TikTok API at scale without the usual limitations",
+  "keywords": ["tiktok", "tiktok-api", "tikfly"],
+  "version": "1.0.0",
+  "author": "Tikfly",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.14.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
